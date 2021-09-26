@@ -1,4 +1,5 @@
 import * as React from "react";
+import { registerRootComponent } from "expo";
 import { createSwitchNavigator, createAppContainer } from "react-navigation";
 import LoadingScreen from "./screens/LoadingScreen";
 import LoginScreen from "./screens/LoginScreen";
@@ -23,3 +24,4 @@ const AppNavigator = createAppContainer(AppSwitchNavigator);
 export default function App() {
   return <AppNavigator />;
 }
+registerRootComponent(App);
