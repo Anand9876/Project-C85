@@ -182,7 +182,7 @@ const styles = StyleSheet.create({
     marginTop:RFValue(15)
   },
   inputTextBig:{
-    textAlignVertical:'Top',
+    textAlignVertical: "top",
     padding:RFValue(5)
   }
 });
